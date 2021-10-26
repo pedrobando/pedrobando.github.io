@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap');
+
 :root{
     background-color: #FFFFFF;
+}
+.container{
+    margin-top: 2rem;
+    max-width: 1280px;
+}
+
+#img_logo{
+    max-width: 20.25rem;
+}
+
+.nav-link{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: #242424;
 }
