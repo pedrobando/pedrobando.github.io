@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root{
     background-color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6,a{
+    color: #84BD41 ;
+}
+
+.container h1{
+    font-size: 2.625rem;
+}
+.pageHeader{
+    margin-bottom: 2.18rem;
 }
 .container{
     margin-top: 2rem;
@@ -12,8 +23,195 @@
     max-width: 20.25rem;
 }
 
-.nav-link{
+.container .nav-link{
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
     color: #242424;
+    font-size: 1.1rem;
 }
+
+#footer .nav-link{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: #2e2e2e;
+    font-size: 1rem;
+}
+#footer{
+    background-color:#242424;
+}
+
+.ul_navbar li{
+    display: inline !important;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    padding-left: .6rem;
+    padding-right: .6rem;
+}
+.ul_navbar li a{
+    text-decoration: none;
+    color: #444444;
+}
+
+.heightSpacer{
+    height: 8.43rem;
+}
+
+.btnContent{
+    border-radius: 1.8rem;
+    background-color: #84BD41;
+    font-family: 'Shadows Into Light', cursive;
+    color: #FFFFFF;
+    font-size: 1.8125rem;
+}
+
+.div_cloudword {
+    position: relative;
+    min-height: 470px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.div_cloudword h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+}
+.h3_webdevelopment {
+    font-size: 5rem;
+    color: #84BD41;
+    top: 20%;
+    left: 0;
+    z-index: 9;
+    animation: h3_cloud-1 13s ease infinite;
+}
+.h3_css {
+    font-size: 4.25rem;
+    color: #003f6921;
+    top: 32%;
+    right: 8%;
+    z-index: 7;
+    animation: h3_cloud-2 6s ease infinite;
+}
+.h3_xd {
+    font-size: 1.5rem;
+    color: #003F69;  
+    top: 8%;
+    left: 40%;
+    z-index: 5;
+    animation: h3_cloud-2 5s ease infinite;
+}
+
+.h3Blue{
+    color:#003F69;
+}
+.h3_ux-design {
+    font-size: 4.25rem;
+    color: #8888883d;
+    top: 12%;
+    right: 5%;
+    z-index: 6;
+    animation: h3_cloud-2 11s ease infinite;
+}
+
+.h3_ui-design {
+    font-size: 3.5rem;
+    color: #003f6941;  
+    top: 13%;
+    left: 10%;
+    z-index: 5;
+    animation: h3_cloud-3 5s ease infinite;
+}
+
+.h3_photoshop {
+    font-size: 1.81rem;
+    color: #83bd413a;
+    top: 10%;
+    right: 20%;
+    z-index: 4;
+    animation: h3_cloud-4 7s ease infinite;
+}
+
+.h3_html {
+    font-size: 5.5rem;
+    color: #e3e3e3;
+    top: 30%;
+    left: 13%;
+    z-index: 3;
+    animation: h3_cloud-3 8s ease infinite;
+}
+
+.h3_realestate {
+    font-size: 3.81rem;
+    color: #84bd41;
+    top: 47%;
+    left: 30%;
+    z-index: 2;
+    animation: h3_cloud-4 14s ease infinite;
+}
+
+.h3_front-end {
+    font-size: 1.81rem;
+    color: #e3e3e3;
+    top: 38%;
+    left: 45%;
+    z-index: 1;
+    animation: h3_cloud-4 9s ease infinite;
+}
+
+.h3_recoded {
+    font-size: 1.81rem;
+    font-family: 'Shadows Into Light', cursive;
+    color: #151a19;
+    text-shadow: 4px 4px 12px rgb(0 0 0 / 25%);
+    top: 81%;
+    right: 12%;
+    z-index: 2;
+    animation: h3_cloud-4 9s ease infinite;
+}
+
+@keyframes h3_cloud-1{
+    0%{
+        transform:translate(0,0);
+    }
+    50%{
+        transform:translate(-10px,-10px);
+    }
+    100%{
+        transform:translate(0,0);
+    }}
+@keyframes h3_cloud-2{
+    0%{
+        transform:translate(0,0);
+    }
+    50%{
+        transform:translate(8px,8px);
+    }
+    100%{
+        transform:translate(0,0);
+    }}
+@keyframes h3_cloud-3{
+    0%{
+        transform:translate(0,0);
+    }
+    50%{
+        transform:translate(-12px,12px);
+        
+    }
+    100%{
+        transform:translate(0,0);
+    }}
+@keyframes h3_cloud-4{
+    0%{
+        transform:translate(0,0);
+    }
+    50%{
+        transform:translate(-12px,12px);
+      
+    }
+    100%{
+        transform:translate(0,0);
+    }}
