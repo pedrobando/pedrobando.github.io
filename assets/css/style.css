@@ -268,3 +268,8 @@ strong{
 .center{
     text-align: center;
 }
+
+.h4_contact, .h5_contact{
+    font-family: 'Shadows Into Light', cursive;
+    color: #003f69;
+}
